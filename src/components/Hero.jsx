@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative z-10 min-h-screen flex flex-col justify-center items-center text-white text-center px-4"
     >
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
-        Hi, I'm Harshini
+        Hi, I'm Harshini Gunturi
       </h1>
       <h2 className="text-2xl md:text-3xl text-cyan-400 font-semibold mb-6">
         Full Stack Developer

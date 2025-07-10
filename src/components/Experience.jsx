@@ -1,21 +1,33 @@
 import { motion } from "framer-motion";
 
 const timeline = [
+
+    {
+    title: "Masters of Computer Applications",
+    org: "RVCE, 2025–2027",
+    desc: "Currently Pursuing MCA with a strong foundation in programming, databases, and web technologies.",
+  },
+  
+  {
+    title: "Intern - Python Developer",
+    org: "Tech Mahindra Jan/Feb 2025",
+    desc: "Developed a full-featured ATM interface using Python, implementing key banking functions and enhancing my skills in programming, UI design, and real-world software development..",
+  },
   {
     title: "Bachelor of Computer Applications",
     org: "CAIAS, 2022–2025",
-    desc: "Pursuing BCA with a strong foundation in programming, databases, and web technologies.",
+    desc: "Graduated with a BCA degree, holding a solid academic record and a strong foundation in programming, databases, machine learning, and web development."
   },
   {
-    title: "Intern - Full Stack Developer",
-    org: "XYZ Company, Summer 2024",
-    desc: "Worked on a task manager project using React and FastAPI with full CRUD and authentication.",
+    title: "High School",
+    org: "Oxford English School - ICSE",
+    desc: "Chose computers for Elective in grade 10th",
   },
-  {
-    title: "Portfolio Development",
-    org: "Self Project, 2025",
-    desc: "Designed and developed this animated portfolio using React, TailwindCSS, and Framer Motion.",
-  },
+//   {
+//     title: "Portfolio Development",
+//     org: "Self Project, 2025",
+//     desc: "Designed and developed this animated portfolio using React, TailwindCSS, and Framer Motion.",
+//   },
 ];
 
 export default function Experience() {

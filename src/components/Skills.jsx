@@ -1,10 +1,10 @@
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt,
-  FaGithub, FaBootstrap, FaCuttlefish, FaDatabase
+  FaGithub, FaBootstrap, FaDatabase
 } from "react-icons/fa";
 import {
-  SiTailwindcss, SiFastapi, SiFramer, SiGsap, SiCplusplus, SiExpress,
-  SiMongodb, SiMongoose, SiOracle, SiNodedotjs, SiNodemon, SiNextdotjs, SiReactrouter
+  SiTailwindcss, SiFastapi, SiFramer,
+  SiMongodb, SiPostgresql, SiMongoose, SiOracle, SiNodedotjs, SiNextdotjs, SiReactrouter
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { motion } from "framer-motion";
@@ -32,9 +32,10 @@ const skillGroups = [
   {
     title: "Database",
     skills: [
-      { name: "MongoDB", icon: <SiMongodb size={40} color="#4DB33D" /> },
-      { name: "Mongoose", icon: <SiMongoose size={40} color="#800000" /> },
-      { name: "Oracle", icon: <SiOracle size={40} color="#F80000" /> },
+    //   { name: "MongoDB", icon: <SiMongodb size={40} color="#4DB33D" /> },
+    //   { name: "Mongoose", icon: <SiMongoose size={40} color="#800000" /> },
+    //   { name: "Oracle", icon: <SiOracle size={40} color="#F80000" /> },
+      {name: "PostgreSQL", icon: <SiPostgresql size={40} color="#336791" />,}
     ],
   },
   {
