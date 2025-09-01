@@ -4,22 +4,30 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   const [status, setStatus] = useState("");
+  const [contactData, setContactData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setContactData({ ...contactData, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
+    console.log("Data:", contactData)
 
-    const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+    const res = await fetch("http://localhost:8000/my-portfolio/contacts", {
       method: "POST",
-      body: data,
+      body: JSON.stringify(contactData),
       headers: {
-        Accept: "application/json",
-      },
+          'Content-Type': 'application/json',
+        },
     });
-
+      const responseData = await res.json();
+      console.log("Data:", responseData);
     if (res.ok) {
-      form.reset();
       setStatus("SUCCESS");
     } else {
       setStatus("ERROR");
@@ -27,10 +35,8 @@ export default function Contact() {
   };
 
   return (
-    <section
-      id="contact"
-      className="min-h-screen bg-black text-white px-6 py-20 flex flex-col items-center"
-    >
+    <section id="contact"
+    className="min-h-screen bg-black text-white px-6 py-20 flex flex-col items-center">
       <h2 className="text-4xl font-bold text-cyan-400 mb-8">Contact Me</h2>
       <p className="text-gray-300 text-center max-w-xl mb-12">
         Have a question or want to work together? Feel free to drop a message!
@@ -49,6 +55,8 @@ export default function Contact() {
           <input
             type="text"
             name="name"
+            value={contactData.name}
+            onChange={handleChange}
             required
             className="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
           />
@@ -58,6 +66,8 @@ export default function Contact() {
           <input
             type="email"
             name="email"
+            value={contactData.email}
+            onChange={handleChange}
             required
             className="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
           />
@@ -67,6 +77,8 @@ export default function Contact() {
           <textarea
             name="message"
             rows="5"
+            value={contactData.message}
+            onChange={handleChange}
             required
             className="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500"
           />
