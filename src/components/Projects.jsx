@@ -1,7 +1,8 @@
 import ProjectCard from "./ProjectCard";
-import empImage from "../assets/images/empmanager.png";
+import empImage from "../assets/images/Employee_Manage.png";
 import mylandingImage from "../assets/images/landingpage.png";
 import myportfolioImage from "../assets/images/portfoliosc.png";
+import aiLandingImg from "../assets/images/Landing.png";
 import ParticleBackground from "./ParticleBackground";
 
 const projects = [
@@ -18,7 +19,7 @@ const projects = [
     image: mylandingImage,
     title: "Task Pilot - Personal Task Manager",
     description:
-      "A full-featured task management system supporting user registration/login, task creation, update, deletion, filtering, and status management. Tasks can be marked as completed or archived, with dynamic tables and modal-based task creation.",
+      "A task management system with user authentication, task creation, update, deletion, filtering, and status control. Supports marking tasks as completed or archived, with dynamic tables and modal-based task creation.",
     tech: ["FastAPI", "HTML", "CSS", "JavaScript", "SQLAlchemy"],
     demoLink: "https://ats-checker-demo.com",
     githubLink: "https://github.com/harshini0804/Project-1.git",
@@ -34,13 +35,13 @@ const projects = [
     githubLink: "https://github.com/harshini0804/Project-1.git",
   },
   {
-    image: myportfolioImage,
-    title: "My Portfolio",
+    image: aiLandingImg,
+    title: "ContentCrafter",
     description:
-      "A curated collection of my full stack development projects built with modern technologies like React, FastAPI, and Tailwind CSS.Each project showcases my skills in designing, developing, and deploying scalable applications from scratch.",
+      "AI-powered app generating real-time course content using transformer models, with React UI for previewing and saving content.",
     tech: ["FastAPI", "HTML", "CSS", "JavaScript","TailWindCSS"],
     demoLink: "https://ats-checker-demo.com",
-    githubLink: "https://github.com/harshini0804/Project-1.git",
+    githubLink: "https://github.com/harshini0804/AI_Course_Quiz_Generator.git",
   },
 ];
 

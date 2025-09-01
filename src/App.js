@@ -11,28 +11,15 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="relative overflow-x-hidden">
-      <ParticleBackground />
+      <ParticleBackground variant="dots" />
       <Navbar />
       <Hero />
       <About />
-      <Experience/>
+      <Experience />
       <Skills />
-      <Projects />
+      <Projects /> {/* This already includes its own ParticleBackground */}
       <Contact />
-
-
-       {/* <section id="about" className="min-h-screen bg-black text-white flex items-center justify-center">
-        <h2 className="text-4xl font-semibold">About Me</h2>
-      </section>
-
-      <section id="projects" className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-        <h2 className="text-4xl font-semibold">Projects</h2>
-      </section>
-
-      <section id="contact" className="min-h-screen bg-black text-white flex items-center justify-center">
-        <h2 className="text-4xl font-semibold">Contact</h2>
-      </section> */}
-    </div> 
+    </div>
   );
 }
 
