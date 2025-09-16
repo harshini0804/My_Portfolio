@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function ProjectCard({ image, title, description, tech, demoLink, githubLink }) {
   return (
     <motion.div
-      className="bg-gray-800 rounded-xl shadow-lg shadow-lg border border-cyan-500 w-[400px] h-[500px] flex flex-col overflow-hidden"
+      className="bg-gray-800 rounded-lg shadow-lg shadow-lg border border-cyan-500 w-[380px] h-[500px] flex flex-col overflow-hidden"
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -21,22 +21,22 @@ export default function ProjectCard({ image, title, description, tech, demoLink,
       {/* Bottom: Content */}
       <div className="p-5 flex flex-col justify-between flex-grow">
         <div>
-          <h3 className="text-xl font-bold text-cyan-400 mb-2">{title}</h3>
-          <p className="text-white-600 mb-4">{description}</p>
+          <h3 className="text-xl font-bold text-cyan-300 mb-2">{title}</h3>
+          <p className="text-white mb-4">{description}</p>
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">
           {tech.map((item, idx) => (
             <span
               key={idx}
-              className="bg-cyan-400 text-gray-800 text-sm px-3 py-1 rounded-full"
+              className="bg-cyan-200 text-black text-sm px-3 py-1 rounded-full"
             >
               {item}
             </span>
           ))}
         </div>
 
-        <div className="flex gap-3">
+        {/* <div className="flex gap-3">
           <a
             href={demoLink}
             target="_blank"
@@ -53,7 +53,7 @@ export default function ProjectCard({ image, title, description, tech, demoLink,
           >
             GitHub
           </a>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );

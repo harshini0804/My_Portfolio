@@ -4,29 +4,30 @@ import {
 } from "react-icons/fa";
 import {
   SiTailwindcss, SiFastapi, SiFramer,
-  SiMongodb, SiPostgresql, SiMongoose, SiOracle, SiNodedotjs, SiNextdotjs, SiReactrouter
+  SiMongodb, SiPostgresql, SiMongoose, SiOracle, SiNodedotjs, SiNextdotjs, SiReactrouter, SiPostman,
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { motion } from "framer-motion";
 
 const skillGroups = [
   {
-    title: "Frontend",
+    title: "Programming Languages",
     skills: [
       { name: "HTML", icon: <FaHtml5 size={40} color="#e34c26" /> },
       { name: "CSS", icon: <FaCss3Alt size={40} color="#264de4" /> },
       { name: "JavaScript", icon: <FaJs size={40} color="#f0db4f" /> },
-      { name: "React", icon: <FaReact size={40} color="#61DBFB" /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss size={40} color="#38bdf8" /> },
-      { name: "Bootstrap", icon: <FaBootstrap size={40} color="#7952B3" /> },
+      // { name: "React", icon: <FaReact size={40} color="#61DBFB" /> },
+      // { name: "Tailwind CSS", icon: <SiTailwindcss size={40} color="#38bdf8" /> },
+      // { name: "Bootstrap", icon: <FaBootstrap size={40} color="#7952B3" /> },
       { name: "Python", icon: <FaPython size={40} color="#306998" /> },
+      { name: "SQL", icon: <FaDatabase size={40} color="#336791" /> },
     ],
   },
   {
-    title: "Backend",
+    title: "Frameworks & Libraries",
     skills: [
       { name: "FastAPI", icon: <SiFastapi size={40} color="#009688" /> },
-      { name: "React Router", icon: <SiReactrouter size={40} color="#F44250" /> },
+      { name: "ReactJS", icon: <FaReact size={40} color="#F44250" /> },
     ],
   },
   {
@@ -39,11 +40,13 @@ const skillGroups = [
     ],
   },
   {
-    title: "Tools",
+    title: "Developer Tools",
     skills: [
       { name: "Git", icon: <FaGitAlt size={40} color="#f1502f" /> },
       { name: "GitHub", icon: <FaGithub size={40} color="#ffffff" /> },
       { name: "VS Code", icon: <VscCode size={40} color="#0078d7" /> },
+      { name: "Swagger", icon: <SiFramer size={40} color="#009688" /> },
+      { name: "Postman", icon: <SiPostman size={40} color="#FF6C37" /> },
       { name: "SQL", icon: <FaDatabase size={40} color="#336791" /> },
     ],
   },

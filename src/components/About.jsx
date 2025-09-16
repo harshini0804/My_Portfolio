@@ -8,7 +8,7 @@ export default function About() {
       id="about"
       className="min-h-screen bg-black text-white px-6 py-20 flex justify-center items-center"
     >
-      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center text-center md:text-left gap-8 md:gap-12">
         {/* Profile Image */}
         <motion.img
           src={profileIcon} // ✅ Replace with your image path
@@ -28,12 +28,9 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="text-2xl font-bold mb-6 leading-relaxed text-white relative">
-          <p className="ml-44">I'm <span className="text-cyan-400">Harshini Gunturi</span>, a full stack developer</p>
-          <p className="ml-16">passionate about building clean, responsive, and dynamic web.</p>
-          <p className="text-center">applications.</p>
-          </div>
-
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 leading-relaxed text-white">
+            I'm <span className="text-cyan-400">Harshini Gunturi</span>, a full stack developer passionate about building clean, responsive, and dynamic web applications.
+          </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed mb-6">
             I’m a curious and passionate <strong className="text-white">Full Stack Developer</strong> focused on crafting scalable web applications using modern technologies. I am currently pursuing Masters in Computer Applications. I enjoy solving real-world problems using clean and efficient code.
@@ -73,3 +70,4 @@ export default function About() {
     </section>
   );
 }
+
