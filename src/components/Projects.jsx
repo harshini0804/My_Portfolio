@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import empImage from "../assets/images/Employee_Manage.png";
-import mylandingImage from "../assets/images/landingpage.png";
+import empImage from "../assets/images/EMP landing.png";
+import mylandingImage from "../assets/images/Task Manager Landing2.png";
 import myportfolioImage from "../assets/images/portfoliosc.png";
 import aiLandingImg from "../assets/images/Landing.png";
 import ParticleBackground from "./ParticleBackground";
@@ -29,7 +29,7 @@ const projects = [
     image: myportfolioImage,
     title: "My Portfolio",
     description:
-      "A curated collection of my full stack development projects built with modern technologies like React, FastAPI, and Tailwind CSS.Each project showcases my skills in designing, developing, and deploying scalable applications from scratch.",
+      "A curated collection of my full stack development projects built with modern technologies like React, FastAPI, and Tailwind CSS. Each project showcases my skills in designing, developing, and deploying scalable applications from scratch.",
     tech: ["FastAPI", "HTML", "CSS", "JavaScript","TailWindCSS"],
     demoLink: "https://ats-checker-demo.com",
     githubLink: "https://github.com/harshini0804/Project-1.git",
@@ -38,7 +38,7 @@ const projects = [
     image: aiLandingImg,
     title: "ContentCrafter",
     description:
-      "AI-powered app generating real-time course content using transformer models, with React UI for previewing and saving content.",
+      "AI-powered app that generates real-time course content using transformer models, with a React preview, save interface, automating manual content creation, reducing content preparation time and improving content organization.",
     tech: ["FastAPI", "HTML", "CSS", "JavaScript","TailWindCSS"],
     demoLink: "https://ats-checker-demo.com",
     githubLink: "https://github.com/harshini0804/AI_Course_Quiz_Generator.git",
