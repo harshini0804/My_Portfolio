@@ -3,8 +3,6 @@ import empImage from "../assets/images/EMP landing.png";
 import mylandingImage from "../assets/images/Task Manager Landing2.png";
 import myportfolioImage from "../assets/images/portfoliosc.png";
 import aiLandingImg from "../assets/images/Landing.png";
-import ParticleBackground from "./ParticleBackground";
-
 const projects = [
   {
     image: empImage,
