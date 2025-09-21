@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.9f4fe9a9.css",
-    "main.js": "/My_Portfolio/static/js/main.e9cf1df2.js",
+    "main.css": "/My_Portfolio/static/css/main.90463129.css",
+    "main.js": "/My_Portfolio/static/js/main.0226fc87.js",
     "static/media/EMP landing.png": "/My_Portfolio/static/media/EMP landing.8466f863f778606fac11.png",
     "static/media/Task Manager Landing2.png": "/My_Portfolio/static/media/Task Manager Landing2.7d8287beb48a6ba1f904.png",
     "static/media/portfoliosc.png": "/My_Portfolio/static/media/portfoliosc.7bb38e99079d0970aca7.png",
     "static/media/Landing.png": "/My_Portfolio/static/media/Landing.04e07b547582743deece.png",
     "static/media/Harshini Profile Pic2 Edited.jpg": "/My_Portfolio/static/media/Harshini Profile Pic2 Edited.12341c3ff4e8208639e8.jpg",
     "index.html": "/My_Portfolio/index.html",
-    "main.9f4fe9a9.css.map": "/My_Portfolio/static/css/main.9f4fe9a9.css.map",
-    "main.e9cf1df2.js.map": "/My_Portfolio/static/js/main.e9cf1df2.js.map"
+    "main.90463129.css.map": "/My_Portfolio/static/css/main.90463129.css.map",
+    "main.0226fc87.js.map": "/My_Portfolio/static/js/main.0226fc87.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f4fe9a9.css",
-    "static/js/main.e9cf1df2.js"
+    "static/css/main.90463129.css",
+    "static/js/main.0226fc87.js"
   ]
 }
