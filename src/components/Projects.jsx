@@ -3,22 +3,23 @@ import empImage from "../assets/images/EMP landing.png";
 import mylandingImage from "../assets/images/Task Manager Landing2.png";
 import myportfolioImage from "../assets/images/portfoliosc.png";
 import aiLandingImg from "../assets/images/Landing.png";
+import ExpenseTrackerLanding from "../assets/images/ETLanding2.png";
 const projects = [
   {
     image: empImage,
     title: "CRUD operations - Employee Management System",
     description:
       "Allows admins to add, update, delete, and view employee details like name, department, salary, and designation.",
-    tech: ["React", "FastAPI", "Python", "SQLAlchemy", "HTML", "CSS"],
+    tech: ["React", "FastAPI", "Python", "SQLAlchemy", "HTML", "CSS", "JavaScript"],
     demoLink: "https://readme-gen-demo-link.com",
     githubLink: "https://github.com/harshini0804/CRUD-Project.git",
   },
   {
     image: mylandingImage,
-    title: "Task Pilot - Personal Task Manager",
+    title: "TaskPilot - Personal Task Manager",
     description:
       "A task management system with user authentication, task creation, update, deletion, filtering, and status control. Supports marking tasks as completed or archived, with dynamic tables and modal-based task creation.",
-    tech: ["FastAPI", "HTML", "CSS", "JavaScript", "SQLAlchemy"],
+    tech: ["FastAPI", "ReactJS", "HTML", "CSS", "JavaScript", "SQLAlchemy", "PostgreSQL"],
     demoLink: "https://ats-checker-demo.com",
     githubLink: "https://github.com/harshini0804/Project-1.git",
   },
@@ -28,16 +29,26 @@ const projects = [
     title: "My Portfolio",
     description:
       "A curated collection of my full stack development projects built with modern technologies like React, FastAPI, and Tailwind CSS. Each project showcases my skills in designing, developing, and deploying scalable applications from scratch.",
-    tech: ["FastAPI", "HTML", "CSS", "JavaScript","TailWindCSS"],
+    tech: ["HTML", "CSS", "JavaScript","TailWindCSS"],
     demoLink: "https://ats-checker-demo.com",
     githubLink: "https://github.com/harshini0804/Project-1.git",
   },
   {
     image: aiLandingImg,
-    title: "ContentCrafter",
+    title: "ContentCrafter - AI Powered Content Generator",
     description:
       "AI-powered app that generates real-time course content using transformer models, with a React preview, save interface, automating manual content creation, reducing content preparation time and improving content organization.",
-    tech: ["FastAPI", "HTML", "CSS", "JavaScript","TailWindCSS"],
+    tech: ["FastAPI", "HTML", "CSS", "JavaScript","ReactJS", "HuggingFace"],
+    demoLink: "https://ats-checker-demo.com",
+    githubLink: "https://github.com/harshini0804/AI_Course_Quiz_Generator.git",
+  },
+
+  {
+    image: ExpenseTrackerLanding,
+    title: "SpendWise - Expense Tracker for Personal Finance Management",
+    description:
+      "SpendWise is a full-stack expense tracker built with React and FastAPI, designed to empower users with a clear, visual understanding of their finances. The application provides a comprehensive suite of tools, including an interactive dashboard with real-time charts, detailed report generation with CSV export, and a complete system for setting and tracking monthly budgets.",
+    tech: ["FastAPI", "HTML", "CSS", "JavaScript","React", "Recharts"],
     demoLink: "https://ats-checker-demo.com",
     githubLink: "https://github.com/harshini0804/AI_Course_Quiz_Generator.git",
   },
