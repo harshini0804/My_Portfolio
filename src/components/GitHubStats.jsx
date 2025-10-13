@@ -12,12 +12,12 @@ export default function GitHubStats() {
       {/* Use a flex container to arrange the cards */}
       <div className="flex flex-wrap justify-center items-center gap-8">
         
-        {/* Overall Stats Card */}
+        {/* Overall Stats Card
         <img 
           src={`https://github-readme-stats.vercel.app/api?username=${githubUsername}&show_icons=true&theme=catppuccin_latte&count_private=true`} 
           alt="My GitHub Stats"
           className="max-w-full sm:max-w-md rounded-lg shadow-lg"
-        />
+        /> */}
         
         {/* Top Languages Card */}
         <img 

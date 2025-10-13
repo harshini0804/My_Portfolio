@@ -41,7 +41,7 @@ export default function About() {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-6 text-2xl text-white">
+          <div className="flex gap-6 text-2xl text-white justify-center ">
             <a
               href="https://github.com/harshini0804"
               target="_blank"
