@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+🌐 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- optional banner -->
 
-## Available Scripts
+🚀 Overview
 
-In the project directory, you can run:
+This is my personal portfolio website, built using React and Tailwind CSS, showcasing my skills, experience, and projects in Full Stack Development.
 
-### `npm start`
+It features smooth scroll animations, an interactive background, a timeline-based experience section, and responsive design for all screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎨 Modern & Responsive UI built with React + Tailwind CSS
 
-### `npm test`
+⚙️ Dynamic Sections: About, Experience, Skills, Projects, and Contact
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧠 Animated Particle Backgrounds for a professional visual appeal
 
-### `npm run build`
+🪄 Smooth Scroll Navigation and on-scroll animations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💻 Project Showcase Cards with live demo and GitHub links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📱 Fully Responsive Design across desktop, tablet, and mobile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧰 Tech Stack
 
-### `npm run eject`
+Frontend:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tailwind CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Framer Motion (for animations)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Icons
 
-## Learn More
+React Scroll
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Other Tools:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Visual Studio Code
 
-### Code Splitting
+Git & GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🧑‍💻 About Me
 
-### Analyzing the Bundle Size
+Hi! I'm Harshini Gunturi, a passionate Full Stack Developer focused on building clean, responsive, and dynamic web applications.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+💼 Featured Projects
+🧾 Employee Management System
 
-### Making a Progressive Web App
+A FastAPI-based system to manage employee records efficiently, including CRUD operations, department filtering, and data validation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✅ Task Manager
 
-### Advanced Configuration
+A full-stack task management app built with FastAPI and React, featuring authentication, task creation via modals, filtering, sorting, and archiving.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🌍 Live Demo
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔗 Explore My Portfolio
