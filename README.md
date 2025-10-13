@@ -1,60 +1,57 @@
-🌐 Personal Portfolio Website
+# 🌐 Harshini Gunturi — Developer Portfolio
 
-<!-- optional banner -->
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green?logo=fastapi)
+![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?logo=tailwindcss)
+![Deployed](https://img.shields.io/badge/Status-Live-brightgreen)
 
-🚀 Overview
+## 🚀 Live Demo  
+🔗 [View My Portfolio](https://harshini0804.github.io/My_Portfolio/)
 
-This is my personal portfolio website, built using React and Tailwind CSS, showcasing my skills, experience, and projects in Full Stack Development.
+---
 
-It features smooth scroll animations, an interactive background, a timeline-based experience section, and responsive design for all screen sizes.
+## 💡 About the Project  
+This is my personal **developer portfolio**, crafted to showcase my journey, skills, and the full-stack projects I’ve built.  
+It features modern animations, scroll-based effects, and a dynamic particle background — all designed to provide a clean, responsive user experience.
 
-✨ Features
+---
 
-🎨 Modern & Responsive UI built with React + Tailwind CSS
+## 🛠️ Tech Stack  
+- **React.js** — Frontend framework  
+- **FastAPI** — Backend for API-driven projects  
+- **Tailwind CSS** — Utility-first CSS for responsive design  
+- **Framer Motion** — Smooth animations and scroll reveals  
+- **PostgreSQL** — Database integration for backend systems  
 
-⚙️ Dynamic Sections: About, Experience, Skills, Projects, and Contact
+---
 
-🧠 Animated Particle Backgrounds for a professional visual appeal
+## Featured Projects  
 
-🪄 Smooth Scroll Navigation and on-scroll animations
+### Expense Tracker  
+A full-stack finance management app built with React and FastAPI, featuring an interactive dashboard, real-time charts, budget tracking, and detailed report generation with CSV export — offering users clear insights into their spending patterns.
 
-💻 Project Showcase Cards with live demo and GitHub links
+### Employee Management System  
+A full-stack web application for managing employees with CRUD operations, department assignments, and salary management — powered by **FastAPI** and **React**.  
 
-📱 Fully Responsive Design across desktop, tablet, and mobile
+### Task Manager App  
+A productivity-focused app featuring JWT authentication, task creation/editing via modals, task filtering, sorting, archiving/restoring, and protected routes.  
 
-🧰 Tech Stack
+### AI Course Generator  
+An AI-powered app that generates structured educational content in real time using transformer models (Qwen2.5).  
+The backend runs on **FastAPI**, integrated with Google Colab and ngrok for remote inference.
 
-Frontend:
+---
 
-React.js
+## 👩‍💻 About Me  
+I’m **Harshini Gunturi**, a passionate **Full-Stack Developer** who enjoys crafting efficient, modern web applications.  
+I have a strong foundation in **Python, FastAPI, React, PostgreSQL, and Web Development fundamentals** — with a strong inclination towards designing and building robust backend systems.
 
-Tailwind CSS
+---
 
-Framer Motion (for animations)
+## 🌍 Connect With Me  
+- 💼 [LinkedIn](https://www.linkedin.com/in/harshini-gunturi)  
+- 🧑‍💻 [GitHub](https://github.com/harshini0804)  
 
-React Icons
+---
 
-React Scroll
-
-Other Tools:
-
-Visual Studio Code
-
-Git & GitHub
-
-🧑‍💻 About Me
-
-Hi! I'm Harshini Gunturi, a passionate Full Stack Developer focused on building clean, responsive, and dynamic web applications.
-
-💼 Featured Projects
-🧾 Employee Management System
-
-A FastAPI-based system to manage employee records efficiently, including CRUD operations, department filtering, and data validation.
-
-✅ Task Manager
-
-A full-stack task management app built with FastAPI and React, featuring authentication, task creation via modals, filtering, sorting, and archiving.
-
-🌍 Live Demo
-
-🔗 Explore My Portfolio
+⭐ **If you like this project, consider giving it a star!**
