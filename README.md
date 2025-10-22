@@ -21,7 +21,6 @@ It features modern animations, scroll-based effects, and a dynamic particle back
 - **FastAPI** — Backend for API-driven projects  
 - **Tailwind CSS** — Utility-first CSS for responsive design  
 - **Framer Motion** — Smooth animations and scroll reveals  
-- **PostgreSQL** — Database integration for backend systems  
 
 ---
 
@@ -49,7 +48,7 @@ I have a strong foundation in **Python, FastAPI, React, PostgreSQL, and Web Deve
 ---
 
 ## 🌍 Connect With Me  
-- 💼 [LinkedIn](https://www.linkedin.com/in/harshini-gunturi)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/harshini-gunturi-225098304/)  
 - 🧑‍💻 [GitHub](https://github.com/harshini0804)  
 
 ---

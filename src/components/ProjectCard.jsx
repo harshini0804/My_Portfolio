@@ -96,15 +96,47 @@ export default function ProjectCard({ image, title, description, tech, demoLink,
           <p className="text-white mb-4">{description}</p>
         </div>
 
-        <div className="flex flex-wrap gap-2 mt-auto pt-4"> {/* Added mt-auto and pt-4 for better spacing */}
-          {tech.map((item, idx) => (
-            <span
-              key={idx}
-              className="bg-cyan-200 text-black text-sm px-3 py-1 rounded-full"
-            >
-              {item}
-            </span>
-          ))}
+        {/* This parent div pushes both sections to the bottom */}
+        <div className="mt-auto pt-4">
+          
+          {/* 1. Tech Stack Section */}
+          <div className="flex flex-wrap gap-2 mb-4"> {/* Added mb-4 for spacing */}
+            {tech.map((item, idx) => (
+              <span
+                key={idx}
+                className="bg-cyan-200 text-black text-sm px-3 py-1 rounded-full"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+
+          {/* 2. Buttons Section (now on its own line) */}
+          <div className="flex gap-3">
+            {/* Only show "Live Demo" if demoLink exists */}
+            {demoLink && (
+              <a
+                href={demoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 text-white px-4 py-2 mt-2 rounded hover:bg-green-600 transition"
+              >
+                Live Demo
+              </a>
+            )}
+
+            {/* Only show "GitHub" if githubLink exists */}
+            {githubLink && (
+              <a
+                href={githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-cyan-800 text-white px-4 py-2 mt-2 rounded hover:bg-gray-700 transition"
+              >
+                GitHub
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </motion.div>
