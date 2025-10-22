@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import empImage from "../assets/images/EMP landing.png";
-import mylandingImage from "../assets/images/Task Manager Landing2.png";
-import myportfolioImage from "../assets/images/portfoliosc.png";
+import mylandingImage from "../assets/images/TaskPilotLanding.png";
+import myportfolioImage from "../assets/images/PortfolioLanding.png";
 import aiLandingImg from "../assets/images/Landing.png";
 import ExpenseTrackerLanding from "../assets/images/ETLanding2.png";
 const projects = [
