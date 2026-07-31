@@ -6,14 +6,14 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen bg-black text-white px-6 py-20 flex justify-center items-center"
+      className="min-h-screen bg-black text-white px-4 sm:px-6 py-16 sm:py-20 flex justify-center items-center"
     >
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center text-center md:text-left gap-8 md:gap-12">
         {/* Profile Image */}
         <motion.img
-          src={profileIcon} // ✅ Replace with your image path
+          src={profileIcon}
           alt="Profile"
-          className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-cyan-500 shadow-lg"
+          className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-cyan-500 shadow-lg"
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -28,20 +28,20 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 leading-relaxed text-white">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-relaxed text-white">
             I'm <span className="text-cyan-400">Harshini Gunturi</span>, a full stack developer passionate about building clean, responsive, and dynamic web applications.
           </h2>
 
-          <p className="text-gray-300 text-lg leading-relaxed mb-6">
-            I’m a curious and passionate <strong className="text-white">Full Stack Developer</strong> focused on crafting scalable web applications using modern technologies. I am currently pursuing Masters in Computer Applications. I enjoy solving real-world problems using clean and efficient code.
+          <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
+            I'm a curious and passionate <strong className="text-white">Full Stack Developer</strong> focused on crafting scalable web applications using modern technologies. I am currently pursuing Masters in Computer Applications. I enjoy solving real-world problems using clean and efficient code.
           </p>
 
-          <p className="text-gray-300 text-lg leading-relaxed mb-8">
-            I'm skilled in <strong className="text-white">React, FastAPI, Python, HTML, CSS</strong> and love building full-stack projects from the ground up. I’m constantly learning new tools and frameworks to enhance my development workflow.
+          <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-8">
+            I'm skilled in <strong className="text-white">React, FastAPI, Python, HTML, CSS</strong> and love building full-stack projects from the ground up. I'm constantly learning new tools and frameworks to enhance my development workflow.
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-6 text-2xl text-white justify-center ">
+          <div className="flex gap-6 text-2xl text-white justify-center md:justify-start">
             <a
               href="https://github.com/harshini0804"
               target="_blank"
@@ -70,4 +70,3 @@ export default function About() {
     </section>
   );
 }
-

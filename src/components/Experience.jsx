@@ -1,33 +1,26 @@
 import { motion } from "framer-motion";
 
 const timeline = [
-
-    {
+  {
     title: "Masters of Computer Applications",
     org: "RVCE, 2025–2027",
     desc: "Currently Pursuing MCA with a strong foundation in programming, databases, and web technologies.",
   },
-  
   {
     title: "Intern - Python Developer",
     org: "Tech Mahindra Jan/Feb 2025",
-    desc: "Developed a full-featured ATM interface using Python, implementing key banking functions and enhancing my skills in programming, UI design, and real-world software development..",
+    desc: "Developed a full-featured ATM interface using Python, implementing key banking functions and enhancing my skills in programming, UI design, and real-world software development.",
   },
   {
     title: "Bachelor of Computer Applications",
     org: "CAIAS, 2022–2025",
-    desc: "Graduated with a BCA degree, holding a solid academic record and a strong foundation in programming, databases, machine learning, and web development."
+    desc: "Graduated with a BCA degree, holding a solid academic record and a strong foundation in programming, databases, machine learning, and web development.",
   },
   {
     title: "High School",
     org: "Oxford English School - ICSE",
     desc: "Learnt Programming in Java in grade 10th",
   },
-//   {
-//     title: "Portfolio Development",
-//     org: "Self Project, 2025",
-//     desc: "Designed and developed this animated portfolio using React, TailwindCSS, and Framer Motion.",
-//   },
 ];
 
 export default function Experience() {
@@ -41,10 +34,10 @@ export default function Experience() {
       </h2>
 
       <div className="relative max-w-5xl mx-auto">
-        {/* Center vertical line */}
-        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-1 bg-cyan-400 rounded"></div>
+        {/* Vertical line: left-aligned on mobile (own column), centered from md up */}
+        <div className="absolute top-0 left-4 md:left-1/2 md:-translate-x-1/2 h-full w-1 bg-cyan-400 rounded" />
 
-        <div className="space-y-20">
+        <div className="space-y-12 md:space-y-20">
           {timeline.map((item, index) => {
             const isLeft = index % 2 === 0;
 
@@ -57,12 +50,12 @@ export default function Experience() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className={`relative flex flex-col md:flex-row ${
                   isLeft ? "md:justify-start" : "md:justify-end"
-                } items-center w-full`}
+                } items-start md:items-center w-full pl-12 md:pl-0`}
               >
                 <div
-                  className={`md:w-1/2 ${
+                  className={`w-full md:w-1/2 ${
                     isLeft ? "md:pr-10" : "md:pl-10"
-                  } text-center md:text-left`}
+                  } text-left`}
                 >
                   <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-cyan-500">
                     <h3 className="text-xl font-semibold">{item.title}</h3>
@@ -71,8 +64,8 @@ export default function Experience() {
                   </div>
                 </div>
 
-                {/* Timeline Dot */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-cyan-400 border-4 border-black z-10" />
+                {/* Timeline Dot: left-aligned on mobile, centered on md+ */}
+                <div className="absolute left-4 md:left-1/2 top-6 md:top-1/2 -translate-x-1/2 md:-translate-y-1/2 w-5 h-5 rounded-full bg-cyan-400 border-4 border-black z-10" />
               </motion.div>
             );
           })}
