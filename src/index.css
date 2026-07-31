@@ -6,3 +6,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Defensive: prevent any child element from causing horizontal scroll on mobile */
+body {
+  overflow-x: hidden;
+}
