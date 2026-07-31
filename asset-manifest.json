@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.0e2e9fb7.css",
-    "main.js": "/My_Portfolio/static/js/main.1840dd8c.js",
-    "static/media/EMP landing.png": "/My_Portfolio/static/media/EMP landing.8466f863f778606fac11.png",
+    "main.css": "/My_Portfolio/static/css/main.56c6e4d7.css",
+    "main.js": "/My_Portfolio/static/js/main.255c4266.js",
     "static/media/ETLanding2.png": "/My_Portfolio/static/media/ETLanding2.922b8eee9cd8f32acd39.png",
     "static/media/TaskPilotLanding.png": "/My_Portfolio/static/media/TaskPilotLanding.becb3acf171689d55d7c.png",
+    "static/media/db1.jpeg": "/My_Portfolio/static/media/db1.e69116f7dc8b2f03d9b1.jpeg",
+    "static/media/tasks.png": "/My_Portfolio/static/media/tasks.1571cf1c72d95005737f.png",
     "static/media/PortfolioLanding.png": "/My_Portfolio/static/media/PortfolioLanding.83f764d66ba47e928406.png",
     "static/media/Landing.png": "/My_Portfolio/static/media/Landing.04e07b547582743deece.png",
     "static/media/Harshini Profile Pic2 Edited.jpg": "/My_Portfolio/static/media/Harshini Profile Pic2 Edited.12341c3ff4e8208639e8.jpg",
     "index.html": "/My_Portfolio/index.html",
-    "main.0e2e9fb7.css.map": "/My_Portfolio/static/css/main.0e2e9fb7.css.map",
-    "main.1840dd8c.js.map": "/My_Portfolio/static/js/main.1840dd8c.js.map"
+    "main.56c6e4d7.css.map": "/My_Portfolio/static/css/main.56c6e4d7.css.map",
+    "main.255c4266.js.map": "/My_Portfolio/static/js/main.255c4266.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e2e9fb7.css",
-    "static/js/main.1840dd8c.js"
+    "static/css/main.56c6e4d7.css",
+    "static/js/main.255c4266.js"
   ]
 }
